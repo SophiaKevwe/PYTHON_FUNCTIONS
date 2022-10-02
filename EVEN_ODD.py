@@ -23,29 +23,6 @@ def checkOddEven(n):
     return (statement1, statement)
 
 
-def checkLeapYear(n):
-    if n % 4 == 0:
-        Statement = (f"{n} is a leap year")
-    else:
-        Statement = (f"{n} is not a leap year")
-    return Statement
-
-
-def checkAttendanceStatus(n):
-    n = (n / 12) * 100
-    if n <= 75:
-        statement = ("you are not eligible to write this exam")
-    else:
-        statement = ("you are eligible to write this exam")
-    return statement
-
-
-def dispalyReverseList(k):
-    k = set(k)
-    k = list(k)
-    k.reverse()
-    return k
-
 
 wantMore = "yes"
 while wantMore == "yes":
